@@ -18,7 +18,7 @@ public class anim extends ApplicationAdapter {
 	@Override
 	public void create () {
         batch = new SpriteBatch();
-        textureAtlas = new TextureAtlas(Gdx.files.internal("spritesheet.atlas"));
+        textureAtlas = new TextureAtlas(Gdx.files.internal("data/spritesheet.atlas"));
         animation = new Animation(1/15f, textureAtlas.getRegions());
 	}
 
